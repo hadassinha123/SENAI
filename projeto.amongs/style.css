@@ -1,0 +1,19 @@
+.container{
+    position: relative;
+}
+
+.ícone {
+    position: absolute;
+}
+
+.ícone-01{
+    left: 65px;
+    top: 40px;
+}
+ .ícone-02{
+    left: 217px;
+    top: 40px;
+ } 
+ .ícone-03{
+    
+ }
