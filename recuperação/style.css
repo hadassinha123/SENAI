@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.linha{
+    background-color: #163F92;
+    gap: 20px;
+    flex-direction: row-reverse;
+    padding: 12px 120px;
+    justify-content: end;
+    justify-content: flex-end;
+    display: flex;
+}
+
+.links-linha a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.links-linha{
+    display: flex;
+    gap: 20px;
+}
+ .header{
+    padding: 20px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+ }
+
+ .links-header{
+    display: flex;
+    gap: 40px;
+ }
+
+ .links-header a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+ }
+
+ .hero{
+    width: 100%;
+    background-image: url(./assets/background-hero.png);
+    height: 30vw;
+    background-size: cover;
+    background-position: center;
+} 
+
+span{
+    color: #163F92;
+}
+
+h1{
+    font-size: 34;
+    font-weight: 700;
+    text-align: center;
+}
+
+p{
+     font-size: 16px;
+     text-align: center;
+     width: 120px;
+}
+
+
+.card{
+    padding: 48px 48px;
+    width: 217px;
+    height: 160px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.288);
+    gap: 20px;
+    flex-direction: column;
+}
+
+.cards{
+    max-width: 720px;
+    display: flex;
+    margin: auto;
+    gap: 40px;
+    justify-content: center;
+}
+
+.texto{
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    width: 988px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.hero2{
+    padding: 20px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    justify-content: center;
+}
+
+.insta{
+    background-image: url(./assets/ico-instagram.png);
+    background-size: contain;
+    background-position: center;
+}
+
+.likedin{
+    background-image: url(./assets/ico-linkedin.png);
+     background-size: contain;
+    background-position: center;
+}
+
+.facebook{
+    background-image: url(./assets/ico-facebook.png);
+     background-size: contain;
+    background-position: center;
+}
+
+.youtube{
+    background-image: url(./assets/ico-youtube.png);
+     background-size: contain;
+    background-position: center;
+}
+
+.footer{
+    padding: 40px 120px;
+    background-color:#D9D9D9;
+    
+}
