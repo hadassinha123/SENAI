@@ -1,4 +1,4 @@
 /*
-Hadassa - Peograma 01
+Hadassa - Programa 01
 */
 console.log("Olá, mundo!")
